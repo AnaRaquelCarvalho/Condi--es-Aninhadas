@@ -7,7 +7,7 @@ Prestação = casa/(anos * 12)
 minimo = salario * 30 / 100
 
 print('Para pagar uma casa de R$ {:.2f} em {} anos'.format(casa, anos), end = '')
-print('A prestação será de R$ {:.2f}'.format(Prestação))
+print(' a prestação será de R$ {:.2f}'.format(Prestação))
 
 if casa <= minimo:
     print('Empréstimo pode ser CONCEDIDO')
